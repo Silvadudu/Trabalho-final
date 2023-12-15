@@ -1,0 +1,115 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #363636 !important;
+}
+.navbar {
+    background: #8A2BE2;
+}
+.container-fluid a {
+    color: #dcdcdc;
+}
+.navbar-toggler {
+    color: #8A2BE2 !important; 
+}
+.navbar-brand {
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px !important;
+    color: #dcdcdc !important;
+}
+.collapse .navbar-nav .nav-item {
+    letter-spacing: 2px;;
+}
+.dropdown-menu {
+    background-color: #8A2BE2 !important;
+}
+.estilo-musicas {
+    margin-left: 15px;
+}
+.navbar-nav {
+    color: #dcdcdc;
+    float: left;
+}
+.dropdown-item {
+    color: #dcdcdc !important;
+}
+.dropdown-item:hover {
+    background: #dcdcdc !important;
+    color: #8A2BE2 !important;
+}
+.navbar-search {
+    width: 50%;
+}
+.form-control {
+    border-radius: 13px !important;
+    border-style: solid !important;
+	border-color: #8A2BE2 !important;
+    background: #DCDCDC !important;
+    margin-bottom: 5px;
+}
+.container-fluid {
+    text-align: center;
+}
+.btn {
+    border-radius: 13px !important;
+	border-color: #8A2BE2 !important;
+    background: #DCDCDC !important;
+}
+.btn:hover {
+    background: #8A2BE2 !important;
+    color: #DCDCDC !important;
+}
+#letraMusica {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DCDCDC;
+}
+.icons {
+    float: right;
+    margin-right: 15px;
+}
+.icons ul li {
+    list-style: none;
+    margin-left: 3px;
+}
+.bi {
+    color: #dcdcdc;
+}
+.bi:hover {
+    transition: 0.3s;
+    color: #8A2BE2;
+}
+#select-trecho {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dcdcdc;
+}
+#selecionarTrecho {
+    border-radius: 13px !important;
+    border-style: solid !important;
+	border-color: #8A2BE2 !important;
+    background: #DCDCDC !important;
+    margin-bottom: 5px;
+    outline: 0;
+}
+#opcoesTrechos {
+    display: none;
+}
